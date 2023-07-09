@@ -1,6 +1,6 @@
 {
   "name": "ssh.surf-api-examples",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Some examples of how to use the SSH.SURF API and SSH.SURF API Wrapper (ssh.surf)",
   "main": "scripts/stats.js",
   "type": "module",

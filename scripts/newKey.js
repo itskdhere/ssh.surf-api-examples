@@ -5,7 +5,7 @@ dotenv.config();
 
 const sshsurf = new SshSurfApi({
     apiKey: process.env.API_KEY,
-    figletDecoration: true
+    figletDecoration: false
 });
 
 let response = await sshsurf.newKey();
