@@ -42,7 +42,59 @@ npm run hello
 ```
 
 ```bash
+npm run name
+```
+
+```bash
+npm run start
+```
+
+```bash
+npm run stop
+```
+
+```bash
+npm run restart
+```
+
+```bash
+npm run info
+```
+
+```bash
 npm run stats
 ```
 
-and many more... (check the package.json file for more)
+```bash
+npm run time
+```
+
+```bash
+npm run newRootPass
+```
+
+```bash
+npm run newKey
+```
+
+```bash
+npm run keyTime
+```
+
+```bash
+npm run license
+```
+
+```bash
+npm run exec
+```
+
+```bash
+npm run notify
+```
+
+```bash
+npm run notifyRevolt
+```
+
+That's it! 🙂

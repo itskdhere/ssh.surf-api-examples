@@ -1,11 +1,10 @@
 {
   "name": "ssh.surf-api-examples",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Some examples of how to use the SSH.SURF API and SSH.SURF API Wrapper (ssh.surf)",
   "main": "scripts/stats.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "hello": "node scripts/hello.js",
     "name": "node scripts/name.js",
     "start": "node scripts/start.js",
@@ -17,12 +16,15 @@
     "newRootPass": "node scripts/newRootPass.js",
     "newKey": "node scripts/newKey.js",
     "keyTime": "node scripts/keyTime.js",
-    "license": "node scripts/license.js"
+    "license": "node scripts/license.js",
+    "exec": "node scripts/exec.js",
+    "notify": "node scripts/notify.js",
+    "notifyRevolt": "node scripts/notifyRevolt.js"
   },
   "author": "itskdhere",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.3.1",
-    "ssh.surf": "^1.1.0"
+    "ssh.surf": "^1.2.0"
   }
 }
